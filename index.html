@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;600&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=VT323&display=swap" rel="stylesheet">
+    <!-- font-family: 'Fira Code', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'VT323', monospace; do CSS-->
+    <title>Raphael Fives</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="/src/css/rolagem.css">
+    
+</head>
+<body>
+    <!-- <h1>Mini portifólio</h1> -->
+
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img class="foto-perfil" src="/src/images/foto-perfil.jpg" alt="foto de perfil" >
+            <h1 class="nome">Raphael Oliveira Dantas</h1>
+            <h2 class="cargo">Desenvolvedor Front-End Júnior</h2>
+            <h3 class="apelido">(Dev Fives)</h3>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">                    
+                    <img src="./src/images/capacetes.gif" alt="ícone sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">                    
+                    <img src="./src/images/sobre.gif" alt="">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, ipsa similique deleniti, assumenda commodi facilis eaque corrupti fugit sapiente repudiandae quisquam! Tempore sunt aliquam voluptas illum perferendis, ipsam mollitia? Quia?</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam porro sit possimus, quisquam odit nostrum velit distinctio. <span>Quos quo expedita ex</span>, odio consectetur ad neque laborum, numquam commodi inventore reprehenderit.</p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li> 
+                            <!-- posso subir o curriculo no drive e colocar o link aqui -->
+                            <a href="https://www.google.com" target="_blank" class="curriculo">Currículo</a> 
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/raphael-oliveira-dantas/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Raphael-Dantas" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
